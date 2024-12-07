@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Técnicos Informáticos Cristhian Garrix</title>
+    <link rel="icon" href="png/logo-black.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('IMG/CRISFONDO.jpeg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color:greenyellow; /* White text for contrast */
+        }
+        .bg-translucent {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .content-section {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .service-card {
+            transition: transform 0.3s ease-in-out;
+            background-color: rgba(112, 67, 25, 0.9); /* Dark blue color */
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .navbar {
+            background-color: rgba(71, 112, 25, 0.8) !important; /* Dark blue navbar */
+        }
+        .btn-danger {
+            background-color: gold !important; /* Blue color */
+            border-color: goldenrod !important;
+        }
+        .navbar-brand img {
+            height: 60px; /* Adjust image height as needed */
+        }
+        .social-links a {
+            color: darkgrey; /* White color for social links */
+            text-decoration: none;
+            margin: 0 10px; /* Add some spacing */
+        }
+        .social-links a:hover {
+            color: #007bff; /* Blue color on hover */
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .loyalty-section {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .loyalty-card {
+            transition: transform 0.3s ease-in-out;
+            background-color: rgba(25, 25, 112, 0.9); /* Dark blue color */
+            margin-bottom: 20px;
+        }
+        .loyalty-card:hover {
+            transform: translateY(-10px);
+        }
+        .loyalty-card h5 {
+            color: #007bff; /* Blue color for loyalty card titles */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/imagen06.jpg" alt="Logo" class="d-inline-block align-text-top me-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fidelizacion">Fidelización</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones"> Mas promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="py-5">
+        <div class="container text-center">
+            <div class="content-section">
+                <h1 class="display-4 fw-bold">Servicios Técnicos Informáticos Cristhian Garrix</h1>
+                <p class="lead">Mantenimiento de Computadoras y Laptops</p>
+                <p> Somos un equipo de profesionales dedicados a ofrecer soluciones integrales para tus necesidades tecnológicas. 
+                    Brindamos servicios de mantenimiento preventivo y correctivo, reparación de hardware, eliminación de virus y malware, 
+                    configuración de redes, instalación de software y respaldo de datos.</p>
+                <a href="#contacto" class="btn btn-danger btn-lg mt-3">Contáctanos</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-5">
+        <div class="container">
+            <div class="content-section">
+                <!--inicio del carrucel-->
+    <p>
+        <b>
+    <div class="container">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="container">
+                <video src="video07.mp4" width="1000" height="500" controls></video>
+            </div>
+        </div>
+    </b>
+    </p><!--fin del carrucel-->
+                <h2 class="text-center mb-5">Nuestros Servicios</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-tools fa-3x mb-3"></i>
+                                <h5 class="card-title">Mantenimiento preventivo</h5>
+                                <p class="card-text">Limpieza, actualización de software y optimización del rendimiento.</p>
+                                <p> Precio: S/ 50.00 (Incluye un 5% de descuento por compra anticipada)</p>
+                                <p> Promoción: Servicio de limpieza gratuita para la próxima visita.</p>
+                                <a href="https://wa.me/976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Mantenimiento%20preventivo." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-laptop-medical fa-3x mb-3"></i>
+                                <h5 class="card-title">Reparación de hardware</h5>
+                                <p class="card-text">Solución de problemas de pantalla, teclado, disco duro, etc.</p>
+                                <p> Precio:  A partir de S/ 80.00 (varía según el problema)</p>
+                                <p> Promoción: Diagnóstico gratuito para evaluar el problema.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Reparación%20de%20hardware." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-virus-slash fa-3x mb-3"></i>
+                                <h5 class="card-title">Eliminación de virus y malware</h5>
+                                <p class="card-text">Protección contra amenazas digitales y recuperación de datos.</p>
+                                <p> Precio: S/ 70.00 (Incluye un 10% de descuento por mantenimiento preventivo)</p>
+                                <p> Promoción: Software antivirus gratuito por 3 meses.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Eliminación%20de%20virus%20y%20malware." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-network-wired fa-3x mb-3"></i>
+                                <h5 class="card-title">Configuración de redes</h5>
+                                <p class="card-text">Instalación y configuración de Wi-Fi, redes cableadas y VPN.</p>
+                                <p> Precio: S/ 60.00 (Incluye un 5% de descuento por instalación de software)</p>
+                                <p> Promoción: Configuración de router gratuita.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Configuración%20de%20redes." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-desktop fa-3x mb-3"></i>
+                                <h5 class="card-title">Instalación de software</h5>
+                                <p class="card-text">Instalación de sistemas operativos, programas y aplicaciones personalizadas.</p>
+                                <p> Precio:  A partir de S/ 40.00 (varía según el tipo de software)</p>
+                                <p> Promoción: Descuento del 5% en la instalación de software educativo.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Instalación%20de%20software." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card service-card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-cloud-upload-alt fa-3x mb-3"></i>
+                                <h5 class="card-title">Respaldo y recuperación de datos</h5>
+                                <p class="card-text">Soluciones de almacenamiento en la nube y recuperación de archivos importantes.</p>
+                                <p> Precio: S/ 80.00 (Incluye un 5% de descuento por compra anticipada)</p>
+                                <p> Promoción: 1 mes de almacenamiento en la nube gratuito.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20estoy%20interesado%20en%20el%20servicio%20de%20Respaldo%20y%20recuperación%20de%20datos." class="btn btn-danger mt-2">Solicitar Servicio</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-translucent">
+        <div class="container text-center">
+            <h2 class="mb-4">¿Necesitas ayuda con tu computadora o laptop?</h2>
+            <a href="#contacto" class="btn btn-danger btn-lg">Solicita el servicio al correo electrónico</a>
+        </div>
+    </section>
+
+        <section id="fidelizacion" class="py-5">
+        <div class="container">
+            <div class="loyalty-section">
+                <h2 class="text-center mb-5">Programa de Fidelización</h2>
+                <p class="text-center mb-4">¡Gracias por confiar en nosotros! Disfruta de estos beneficios por ser parte de nuestra comunidad:</p>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-star fa-3x mb-3"></i>
+                                <h5 class="card-title">Descuentos por volumen</h5>
+                                <p class="card-text">Obtén un 5% de descuento en tus siguientes 3 servicios al contratar 2 servicios o más.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20los%20descuentos%20por%20volumen." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-gift fa-3x mb-3"></i>
+                                <h5 class="card-title">Regalos por referidos</h5>
+                                <p class="card-text">Recomienda nuestro servicio a un amigo y ambos obtendrán un 10% de descuento en su siguiente servicio.</p>
+                                <a href="https://wa.me/976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20los%20regalos%20por%20referidos." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-calendar-alt fa-3x mb-3"></i>
+                                <h5 class="card-title">Prioridad en atención</h5>
+                                <p class="card-text">Recibe atención prioritaria en nuestro taller y tiempos de respuesta más rápidos.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20la%20atención%20prioritaria." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-wrench fa-3x mb-3"></i>
+                                <h5 class="card-title">Mantenimiento gratuito</h5>
+                                <p class="card-text">Obtén un mantenimiento preventivo gratuito cada 6 meses al contratar 3 servicios o más.</p>
+                                <a href="#" class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-user-clock fa-3x mb-3"></i>
+                                <h5 class="card-title">Atención personalizada</h5>
+                                <p class="card-text">Contacta con nuestro equipo técnico para resolver cualquier duda o solicitar asistencia personalizada.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20contactar%20con%20el%20equipo%20técnico." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-money-bill-wave fa-3x mb-3"></i>
+                                <h5 class="card-title">Pagos flexibles</h5>
+                                <p class="card-text">Paga tus servicios en cómodas cuotas o con diferentes métodos de pago.</p>
+                                <a href="#" class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="promociones" class="py-5"> 
+        <div class="container">
+            <div class="loyalty-section">
+                <h2 class="text-center mb-5">Mas Promociones</h2>
+                <p class="text-center mb-4">Aprovecha nuestras ofertas especiales para mejorar tu experiencia tecnológica:</p>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-percent fa-3x mb-3"></i>
+                                <h5 class="card-title">Descuento del 15%</h5>
+                                <p class="card-text">En tu primer servicio de mantenimiento preventivo o reparación de hardware.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20el%20descuento%20del%2015%25." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-gift fa-3x mb-3"></i>
+                                <h5 class="card-title">Software Gratuito</h5>
+                                <p class="card-text"> Obtén un antivirus gratuito por 6 meses al contratar el servicio de eliminación de virus y malware.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20el%20software%20gratuito." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card loyalty-card">
+                            <div class="card-body text-center">
+                                <i class="fas fa-calendar-check fa-3x mb-3"></i>
+                                <h5 class="card-title">Servicio Express</h5>
+                                <p class="card-text"> Obtén tu servicio de mantenimiento preventivo en solo 24 horas.</p>
+                                <a href="https://wa.me/51976149548?text=Hola%2C%20quiero%20saber%20más%20sobre%20el%20servicio%20express." class="btn btn-danger mt-2">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5 bg-translucent">
+        <div class="container text-center">
+            <h2 class="mb-4">¿Necesitas ayuda con tu computadora o laptop?</h2>
+            <a href="#contacto" class="btn btn-danger btn-lg">Solicita el servicio al correo electrónico</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="content-section">
+                <h2 class="text-center mb-5">Contáctanos</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="contact-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Calle Inclan 475<p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fas fa-phone-alt"></i>
+                            <a href="tel:+51976149548">+976149548</a>
+                        </div>
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 bg-translucent">
+        <div class="container text-center">
+            <p>© 2024Servicios Técnicos Informáticos Cristhian Garrix.</p>
+            <div class="mt-3 social-links">
+                <a href=https://www.facebook.com/profile.php?id=100068400317483 target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/51976149548" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> 
+                </a>
+                <a href=https://www.instagram.com/cristiangarrix92/ target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href=https://www.tiktok.com/@cristhiangarrix41?lang=es target="_blank"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            const contactForm = document.getElementById('contactForm');
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+                contactForm.reset();
+            });
+        });
+    </script>
+</body>
+</html>
